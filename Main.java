@@ -17,7 +17,7 @@ public class Main {
     
     // ask user to enter size of pizza
     System.out.print("Please enter the diameter of the pizza you would like in cm:");
-    double pizzaSize = input.nextInt();
+    double pizzaSize = input.nextDouble();
     
     // calculate subtotal of pizza
     double subtotal = pizzaSize*0.5+0.99+0.75;
